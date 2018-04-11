@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Form Demo</title>
+	<link rel="stylesheet" type="text/css" href="bootstrap.css">
+</head>
+<body>
+	<h1>Login</h1>
+	<!-- action - where the form send data to -->
+	<!-- method -what HTTP method (get/post) -->
+	<form action="http://www.facebook.com" method="post">
+		<label for="username">Email:</label>
+		<input id="username" name="username" type="email" placeholder="email" required>
+
+
+		<label for="password">Password:</label>
+		<input id="password" name="password" type="password" pattern=".{5,10}" placeholder="password" required>
+
+
+
+		<button class="btn btn-success btn-sm">Submit</button>
+		
+		
+
+	</form>
+
+
+</body>
+</html>
